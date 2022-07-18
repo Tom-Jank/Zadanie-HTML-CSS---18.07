@@ -94,13 +94,21 @@
 .trending-recipes  {
     background: rgb(255,211,149);
     background: linear-gradient(90deg, rgba(255,211,149,1) 0%, rgba(252,176,69,1) 56%);
-
 }
 
 .images  {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+
+#pancakes:hover  {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+#header-about:hover  {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
 }
 
 input  {
@@ -123,7 +131,8 @@ input  {
     min-width: 100px;
     font-family: 'Open Sans', sans-serif;
     font-size: large;
-  }
+}
+
 body  {
     background: rgb(255,255,255);
     background: linear-gradient(0deg, rgba(255,255,255,1) 62%, rgba(253,148,45,0.6124824929971988) 100%);
