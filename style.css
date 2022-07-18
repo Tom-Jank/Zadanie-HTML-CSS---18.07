@@ -12,13 +12,33 @@
     justify-content: flex-end;
     gap: 100px;
     font-size: x-large;
-    margin-top: -100px;
+    margin-top: -50px;
     margin-right: 100px;
 }
-.subscription  {
+.header-extension  {
     margin-top: 100px;
-    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.subscription  {
+    flex-direction: column;
+    margin-top: 100px;
     font-size: xx-large;
+}
+#nice-image  {
+    flex-direction: row;
+}
+.cooking-ideas  {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#breakfast  {
+    margin-top: 50px;
+    margin-left: 100px;
+    border: solid 2px grey;
+    border-radius: 15px;
 }
 input  {
     border-radius: 15px;
