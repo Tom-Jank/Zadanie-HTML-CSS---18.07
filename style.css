@@ -4,7 +4,8 @@
 #logo  {
     display: flex;
     justify-content: flex-start;
-    font-size: x-large;}
+    font-size: x-large;
+}
 .subpages  {
     display: flex;
     flex-direction: row;
@@ -14,3 +15,28 @@
     margin-top: -100px;
     margin-right: 100px;
 }
+.subscription  {
+    margin-top: 100px;
+    margin-left: 100px;
+    font-size: xx-large;
+}
+input  {
+    border-radius: 15px;
+    border: 2px solid gray;
+    padding: 20px; 
+    width: 200px;
+    height: 15px;    
+    font-family: 'Open Sans', sans-serif;
+    font-size: large;
+}
+ button {
+    background-color:#fd942d;
+    color: #fff;
+    border: none;
+    border-radius:15px; 
+    padding:15px;
+    height: 50px;
+    min-width: 100px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: large;
+  }
