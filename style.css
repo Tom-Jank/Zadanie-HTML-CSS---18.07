@@ -1,11 +1,13 @@
 .container  {
     font-family: 'Open Sans', sans-serif;
 }
+
 #logo  {
     display: flex;
     justify-content: flex-start;
     font-size: x-large;
 }
+
 .subpages  {
     display: flex;
     flex-direction: row;
@@ -15,31 +17,86 @@
     margin-top: -50px;
     margin-right: 100px;
 }
+
 .header-extension  {
     margin-top: 100px;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
+
 .subscription  {
     flex-direction: column;
     margin-top: 100px;
     font-size: xx-large;
 }
+
 #nice-image  {
     flex-direction: row;
 }
+
 .cooking-ideas  {
     display: flex;
+    flex-direction: column;
+}
+
+.first-row  {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-around;
 }
+
+.second-row {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
 #breakfast  {
-    margin-top: 50px;
-    margin-left: 100px;
-    border: solid 2px grey;
+    width: 30%;
+    height: 300px;
+    flex-direction: column;
+    border: solid 2px gray;
+    border-radius: 15px;
+
+}
+
+#snacks  {
+    width: 30%;
+    height: 300px;;
+    border: solid 2px gray;
     border-radius: 15px;
 }
+
+#barbeque  {
+    flex-direction: column;
+    width: 30%;
+    height: 300px;
+    border: solid 2px gray;
+    border-radius: 15px;
+    flex-direction: column;
+    align-self: flex-end;
+}
+
+#cookies  {
+    flex-direction: column;
+    width: 30%;
+    height: 300px;
+    border: solid 2px gray;
+    border-radius: 15px;
+    flex-direction: column;
+}
+
+.trending-recipes  {
+    background: rgb(255,211,149);
+    background: linear-gradient(90deg, rgba(255,211,149,1) 0%, rgba(252,176,69,1) 56%);
+
+}
+
 input  {
     border-radius: 15px;
     border: 2px solid gray;
@@ -49,6 +106,7 @@ input  {
     font-family: 'Open Sans', sans-serif;
     font-size: large;
 }
+
  button {
     background-color:#fd942d;
     color: #fff;
@@ -60,3 +118,7 @@ input  {
     font-family: 'Open Sans', sans-serif;
     font-size: large;
   }
+body  {
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 62%, rgba(253,148,45,0.6124824929971988) 100%);
+}
