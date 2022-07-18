@@ -93,13 +93,19 @@
 
 .trending-recipes  {
     background: rgb(255,211,149);
-    background: linear-gradient(90deg, rgba(255,211,149,1) 0%, rgba(252,176,69,1) 56%);
+    background: linear-gradient(90deg, rgba(253,148,45,0.4) 62%, rgba(253,148,45,0.6124824929971988) 100%);
+    height: 500px;
 }
 
 .images  {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+
+.footer  {
+    display: flex;
+    flex-direction: row;
 }
 
 #pancakes:hover  {
