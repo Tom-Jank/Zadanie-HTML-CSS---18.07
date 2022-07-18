@@ -97,6 +97,12 @@
 
 }
 
+.images  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
 input  {
     border-radius: 15px;
     border: 2px solid gray;
